@@ -33,8 +33,9 @@
             f.setVisible(true);  
         }         
         public void actionPerformed(ActionEvent e) {  
-            String s1=tf1.getText();  
-            String s2=tf2.getText();  
+            String s1=tf2.getText();  
+            String s2=tf3.getText();
+            String s3=tf4.getText();  
             int a=Integer.parseInt(s1);  
             int b=Integer.parseInt(s2);  
             int c=0;  
